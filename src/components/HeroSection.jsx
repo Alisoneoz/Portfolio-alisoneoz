@@ -20,8 +20,9 @@ const HeroSection = () => {
         <p className="text-2xl sm:text-2xl mb-2 sm:mb-5">Hello! My name is</p>
         <p className="font-bold text-4xl sm:text-7xl sm:mb-6">Alison Estephany </p>
         <div className="my-3 flex text-2xl sm:text-4xl">
-          <p className="text-fuchsia-600 dark:text-pink-200 pr-1 pl-0 sm:pr-2 font-bold">
-            Full-Stack Developer
+          A
+          <p className="text-fuchsia-600 dark:text-pink-200 px-1 sm:px-2 font-bold">
+            Fullstack Developer
           </p>
           and
           <p className="text-violet-700 dark:text-rose-300 pl-1 sm:pl-2 font-bold">
