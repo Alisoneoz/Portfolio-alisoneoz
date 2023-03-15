@@ -6,7 +6,7 @@ const SkillsCard = ({ image }) => {
       ">
         <img
           src={image}
-          className="rounded-md border-none w-10 sm:w-20 sm:py-3 my-auto mx-auto"
+          className="rounded-md border-none w-20 sm:w-24 sm:py-3 my-auto mx-auto"
         />
       </div>
     </div>
