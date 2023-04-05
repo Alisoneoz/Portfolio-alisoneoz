@@ -35,7 +35,7 @@ const NavBar = () => {
 
 
   return (
-    <nav className="flex scroll-smooth justify-end text-xl pt-5 pb-3 pr-6 shadow-lg rounded-xl font-bold w-full fixed top-0 left-0 right-0 
+    <nav className="flex scroll-smooth justify-end text-xl pt-5 pb-3 pr-6 shadow-lg rounded-b-xl font-bold w-full fixed top-0 left-0 right-0  opacity-95
     
     bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-stone-200 via-stone-100 to-purple-300
 
