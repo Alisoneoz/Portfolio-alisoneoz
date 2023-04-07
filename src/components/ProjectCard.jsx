@@ -11,12 +11,13 @@ const ProjectCard = ({ image, title, description, link, repoLink }) => {
 
       <div className="mt-2 mx-2">
         <div>{description}</div>
-        <a href={link} target="_blank" className="flex justify-center items-center mt-2 mb-2 text text-base font-bold">
+        <a href={link} target="_blank" className={`flex justify-center items-center text text-base font-bold ${!repoLink? "my-8" :"mt-2 mb-2"}`}>
           <FaLink className="mr-2" /> <p className="mt-1">Project Link</p>
         </a>
-        <a href={repoLink} target="_blank" className="flex justify-center items-center mb-1 text-base font-bold ">
+        {!repoLink  ? "" : (<a href={repoLink} target="_blank" className="flex justify-center items-center mb-1 text-base font-bold ">
           <FaGithub className="mr-2" /> <p className="mt-1">GitHub Repository</p>
-        </a>
+        </a>)}
+        
       </div>
 
     </div>
