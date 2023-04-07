@@ -13,8 +13,7 @@ export const projectsData = [
         "Web App (with Spanish UI) to convert nutrition facts information (input by the user) to food portions in the diabetic exchange list.",
       image: "projectImages/nutriConverter.png",
       link: "https://nutri-convertidor-alison-estephany.netlify.app/",
-      repoLink: "https://github.com/Alisoneoz/Nutri-Converter-of-Food-portions-to-diabetic-exchanges-App",
-    },
+      },
     {
       title: "E-commerce Clothing Store",
       description:
