@@ -31,13 +31,13 @@ const Skills = () => {
       image: "skillsImages/javascript.png",
     },
     {
-      image: "skillsImages/javascript.png",
+      image: "skillsImages/WordPress.png",
     },
     {
-      image: "skillsImages/javascript.png",
+      image: "skillsImages/Elementor.png",
     },
     {
-      image: "skillsImages/javascript.png",
+      image: "skillsImages/Squarespace.png",
     },
   ];
   return (
