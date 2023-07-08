@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
+import CMSProjects from "./components/CMSProjects";
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
         <HeroSection />
         <Skills />
         <Projects id="projects"/>
+        <CMSProjects />
         <ContactSection id="contact"/>
         <Footer />   
       

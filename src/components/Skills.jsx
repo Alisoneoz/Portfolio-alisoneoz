@@ -30,6 +30,15 @@ const Skills = () => {
     {
       image: "skillsImages/javascript.png",
     },
+    {
+      image: "skillsImages/javascript.png",
+    },
+    {
+      image: "skillsImages/javascript.png",
+    },
+    {
+      image: "skillsImages/javascript.png",
+    },
   ];
   return (
     <div className="pt-10 pb-32 ">

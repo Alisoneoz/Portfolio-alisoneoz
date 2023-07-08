@@ -73,7 +73,7 @@ const ContactSection = () => {
               {...register("name", {
                 required: true,
               })}
-              className="w-full rounded-md px-2 py-1 mt-2"
+              className="w-full rounded-md px-2 py-1 mt-2 text-black"
             />
             <div className="text-red-700 font-semibold">
               {errors.name?.type === "required" && <p>Please add your name</p>}
@@ -92,7 +92,7 @@ const ContactSection = () => {
                   message: "Email is not valid",
                 },
               })}
-              className=" w-full rounded-md mb-2 px-2 py-1"
+              className=" w-full rounded-md mb-2 px-2 py-1 text-black"
             />
             <div className="">
               {errors.email && (
@@ -107,7 +107,7 @@ const ContactSection = () => {
             <label className="texl-base sm:text-xl font-bold">Message</label>
             <textarea
               {...register("message", { required: true, min: 20 })}
-              className=" w-full rounded-md px-2 py-1 mt-1"
+              className=" w-full rounded-md px-2 py-1 mt-1 text-black"
             />
             <div className="text-red-700 font-semibold">
               {errors.message?.type === "required" && (
