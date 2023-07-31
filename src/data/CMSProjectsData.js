@@ -4,7 +4,7 @@ export const cMSProjectsData = [
         description:
           "Spanish Nutrition Website created with WordPress and Elementor as the page builder. This website contains 5 pages and a great modern design.",
         image: "projectImages/Alison-Estephany-nutrición-y-dietética.png",
-        link: "https://alisonestephany.store/",
+        link: "https://alisonestephany.com/",
       },
 
     {

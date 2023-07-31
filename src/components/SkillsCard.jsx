@@ -2,7 +2,7 @@ const SkillsCard = ({ image }) => {
   return (
     <div>
       <div className="bg-stone-100 rounded-lg mx-auto shadow-2xl dark:bg-zinc-200/90
-      py-3
+      py-3  
       ">
         <img
           src={image}

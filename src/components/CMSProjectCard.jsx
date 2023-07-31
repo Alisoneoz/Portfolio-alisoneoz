@@ -12,7 +12,7 @@ const CMSProjectCard = ({ image, title, description, link, repoLink }) => {
       <div className="mt-2 mx-2">
         <div>{description}</div>
         <a href={link} target="_blank" className={`flex justify-center items-center text text-base font-bold ${!repoLink? "my-8" :"mt-2 mb-2"}`}>
-          <FaLink className="mr-2" /> <p className="mt-1">Project Link</p>
+          <FaLink className="mr-2" /> <p className="mt-1">Website Link</p>
         </a>
        
       </div>
