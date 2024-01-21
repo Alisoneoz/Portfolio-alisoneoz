@@ -1,4 +1,5 @@
-import { BsTwitter, BsGithub, BsInstagram, BsFillEnvelopeFill } from "react-icons/bs";
+import { BsGithub, BsInstagram, BsFillEnvelopeFill } from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer className="sm:mt-2 sm:mb-7" id="footer">
@@ -22,7 +23,7 @@ const Footer = () => {
           target="_blank"
           className="mx-4"
         >
-          <BsTwitter />
+          <FaXTwitter />
         </a>
         <a
           href="mailto:alisonestephanyoz@gmail.com"

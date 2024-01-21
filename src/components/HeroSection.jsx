@@ -1,10 +1,11 @@
 import ali from "../assets/ali.jpg";
 import {
-  BsTwitter,
   BsGithub,
   BsInstagram,
   BsFillEnvelopeFill,
 } from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
+
 const HeroSection = () => {
   return (
     <section
@@ -61,7 +62,7 @@ const HeroSection = () => {
             target="_blank"
             className="mx-2 sm:mx-4"
           >
-            <BsTwitter />
+            <FaXTwitter />
           </a>
           <a href="mailto:alisonestephanyoz@gmail.com" className="mx-2 sm:mx-4">
             <BsFillEnvelopeFill />
