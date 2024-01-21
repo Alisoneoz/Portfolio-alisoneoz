@@ -32,7 +32,7 @@ const Footer = () => {
           <BsFillEnvelopeFill />
         </a>
       </div>
-      <div className="text-center text-lg sm:text-xl pt-1 pb-16 sm:py-2">Alison Estephany ©2023</div>
+      <div className="text-center text-lg sm:text-xl pt-1 pb-16 sm:py-2">Alison Estephany ©2024</div>
     </footer>
   );
 };
