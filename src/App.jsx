@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import ContactSection from "./components/ContactSection";
 import HeroSection from "./components/HeroSection";
 import NavBar from "./components/NavBar";
@@ -5,8 +6,16 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
 import CMSProjects from "./components/CMSProjects";
+import ModalNewPortfolio from "./components/ModalNewPortfolio";
 
 function App() {
+  const [openModal, setOpenModal] = useState(false);
+
+
+  useEffect(()=>{
+    const timer = setTimeout(()=>setOpenModal(true), 1000)
+    return () => clearTimeout(timer);
+  }, [])
   
   return (
     <div className="App m-0 p-0 box-border min-h-screen font-josefin flex flex-col 
@@ -19,8 +28,10 @@ function App() {
      
      dark:from-[#310E46] dark:via-purple-900 dark:to-pink-700
      ">
-        <NavBar />
-        <HeroSection />
+    
+        <NavBar />   
+        <HeroSection />  
+        {openModal && <ModalNewPortfolio closeModal={setOpenModal}/>}
         <Skills />
         <Projects id="projects"/>
         <CMSProjects />
